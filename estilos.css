@@ -1,0 +1,47 @@
+body {
+    background-color: coral;
+    font-family: Arial;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.libro {
+    background-color: c;
+    color: white;
+
+    width: 250px;
+    height: 230px;
+
+    margin: 15px;
+    padding: 15px;
+
+    display: inline-block;
+    vertical-align: top;
+
+    border: 2px solid cadetblue;
+
+    transition: 0.3s;
+}
+
+.libro:hover {
+    transform: scale(1.05);
+}
+
+.libro h2 {
+    color: green;
+}
+
+.libro p {
+    color: white;
+}
+
+.libro:hover {
+    transform: scale(1.05);
+}
